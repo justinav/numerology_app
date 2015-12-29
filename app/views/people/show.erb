@@ -1,0 +1,11 @@
+<h2><%= "#{@person.first_name} #{@person.last_name}" %></h2>
+<p>Born on <%= "#{@person.birthdate.strftime("%m/%d/%Y")}" %></p>
+<p>Your number is</p>
+<p><%= @message %></p>
+
+<nav>
+	<ul>
+		<li><a href="/people">View our entire database</a></li>
+		<li><a href="/">Add a new person to our database</a></li>
+	</ul>
+</nav>

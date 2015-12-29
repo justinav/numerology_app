@@ -1,0 +1,44 @@
+.people-index {
+	max-width: 420px;
+	margin: 0 auto;
+}
+
+/* add padding to table on index */
+.people-index td {
+	vertical-align: top;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+.people-index td:last-child {
+	padding-right: 0;
+	padding-bottom: 0px;
+}
+
+/* style edit & new forms */
+.people-form {
+	max-width: 300px;
+	margin: 10px auto;
+}
+
+.new-person:before,
+.edit-person:before {
+	content: '';
+	display: block;
+	width: 300px;
+	margin: 20px 0;
+}
+
+.new-person:before {
+	border-bottom: 3px solid Thistle;
+}
+
+
+.edit-person:before {
+	border-bottom: 3px solid SpringGreen;
+}
+
+.new-person > div,
+.edit-person > div {
+	margin-top: 20px;
+}
